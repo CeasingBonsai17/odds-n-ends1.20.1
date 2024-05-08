@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.bon.oddsnends.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AbstractFireBlockMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

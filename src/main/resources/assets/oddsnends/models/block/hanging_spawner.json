@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "oddsnends:block/mob_spawner_bottom",
+    "side": "oddsends:block/mob_spawner_side_hanging",
+    "top": "oddsnends:block/mob_spawner_top"
+  }
+}

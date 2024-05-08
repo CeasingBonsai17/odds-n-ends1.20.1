@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "oddsnends:block/akane_slab"
+    },
+    "type=double": {
+      "model": "oddsnends:block/akane_planks"
+    },
+    "type=top": {
+      "model": "oddsnends:block/akane_slab_top"
+    }
+  }
+}

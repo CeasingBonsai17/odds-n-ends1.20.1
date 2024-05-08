@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "oddsnends:block/shatterslate_slab"
+    },
+    "type=double": {
+      "model": "oddsnends:block/shatterslate_planks"
+    },
+    "type=top": {
+      "model": "oddsnends:block/shatterslate_slab_top"
+    }
+  }
+}

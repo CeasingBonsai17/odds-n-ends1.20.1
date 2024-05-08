@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_fence",
+  "key": {
+    "O": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "oddsnends:akane_planks"
+    }
+  },
+  "pattern": [
+    "WOW",
+    "WOW"
+  ],
+  "result": {
+    "count": 3,
+    "item": "oddsnends:akane_fence"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "O": {
+      "item": "minecraft:melon_slices"
+    }
+  },
+  "pattern": [
+    "OOO"
+  ],
+  "result": {
+    "count": 6,
+    "item": "oddsnends:melon_stairs"
+  },
+  "show_notification": true
+}

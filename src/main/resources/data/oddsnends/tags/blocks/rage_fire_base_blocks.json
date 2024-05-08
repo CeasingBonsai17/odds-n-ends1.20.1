@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "oddsnends:dungeon_steel_ore",
+    "oddsnends:hanging_spawner",
+    "minecraft:spawner",
+    "oddsnends:dungeon_steel_block"
+  ]
+}

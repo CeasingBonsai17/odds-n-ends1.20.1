@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "oddsnends:block/shatterslate",
+    "side": "oddsnends:block/shatterslate",
+    "top": "oddsnends:block/shatterslate"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "oddsnends:manastone_bricks",
+    "oddsnends:manastone_brick_stairs",
+    "oddsnends:manastone_brick_slab",
+    "oddsnends:manastone_brick_wall",
+    "oddsnends:manastone_brick_wall",
+    "oddsnends:small_manastone_bricks",
+    "oddsnends:small_manastone_brick_stairs",
+    "oddsnends:small_manastone_brick_slab",
+    "oddsnends:small_manastone_brick_wall",
+    "oddsnends:dungeon_steel_ore"
+  ]
+}

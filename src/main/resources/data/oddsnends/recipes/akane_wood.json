@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "bark",
+  "key": {
+    "O": {
+      "item": "oddsnends:akane_log"
+    }
+  },
+  "pattern": [
+    "OO",
+    "OO"
+  ],
+  "result": {
+    "count": 3,
+    "item": "oddsnends:akane_wood"
+  },
+  "show_notification": true
+}

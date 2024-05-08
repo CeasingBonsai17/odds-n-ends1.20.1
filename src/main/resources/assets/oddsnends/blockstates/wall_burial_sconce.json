@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "oddsnends:block/wall_burial_sconce",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "oddsnends:block/wall_burial_sconce"
+    },
+    "facing=south": {
+      "model": "oddsnends:block/wall_burial_sconce",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "oddsnends:block/wall_burial_sconce",
+      "y": 270
+    }
+  }
+}

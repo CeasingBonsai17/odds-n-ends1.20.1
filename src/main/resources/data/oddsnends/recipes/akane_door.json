@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "wooden_door",
+  "key": {
+    "O": {
+      "item": "oddsnends:akane_planks"
+    }
+  },
+  "pattern": [
+    "OO",
+    "OO",
+    "OO"
+  ],
+  "result": {
+    "count": 3,
+    "item": "oddsnends:akane_door"
+  },
+  "show_notification": true
+}
