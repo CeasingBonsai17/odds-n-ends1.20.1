@@ -25,5 +25,14 @@
       "block/suspicious_sand/break6"
     ],
     "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.cave_vines.pick_berries": {
+    "sounds": [
+      {
+        "name": "block.sweet_berry_bush.pick_berries",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.block.crop_block.fruit_pops"
   }
 }

@@ -11,6 +11,7 @@ import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 
 public class OddSounds {
+    public static final SoundEvent BLOCK_APPLES_PICKED = OddSounds.registerSoundEvent("block.apples_picked");
     public static final SoundEvent BLOCK_QUARTZ_SAND_STEP = OddSounds.registerSoundEvent("block.quartz_sand.step");
     public static final SoundEvent BLOCK_QUARTZ_SAND_BREAK = OddSounds.registerSoundEvent("block.quartz_sand.break");
 

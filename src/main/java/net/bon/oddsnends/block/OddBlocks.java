@@ -10,8 +10,8 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.Instrument;
 import net.minecraft.block.piston.PistonBehavior;
-import net.minecraft.block.sapling.OakSaplingGenerator;
 import net.minecraft.item.BlockItem;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -113,7 +113,7 @@ public class OddBlocks {
     public static final Block AKANE_TRAPDOOR = registerBlock("akane_trapdoor",
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR).nonOpaque(),BlockSetType.OAK));
     public static final Block FRUITING_AKANE_LEAVES = registerBlock("fruiting_akane_leaves",
-            new FruitingAkaneLeavesBlock(FabricBlockSettings.copyOf(Blocks.AZALEA_LEAVES).nonOpaque()));
+            new FruitingLeavesBlock(FabricBlockSettings.copyOf(Blocks.AZALEA_LEAVES).nonOpaque(), OddBlocks.AKANE_LEAVES, Items.APPLE));
     public static final Block FLOWERING_AKANE_LEAVES = registerBlock("flowering_akane_leaves",
             new GrowableLeavesBlock(FabricBlockSettings.copyOf(Blocks.AZALEA_LEAVES).nonOpaque().ticksRandomly(), OddBlocks.FRUITING_AKANE_LEAVES));
     public static final Block AKANE_LEAVES = registerBlock("akane_leaves",
