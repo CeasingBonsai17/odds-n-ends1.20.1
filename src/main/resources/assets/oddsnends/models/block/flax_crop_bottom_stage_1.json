@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "oddsnends:block/flax_crop_bottom_stage_1"
+  }
+}

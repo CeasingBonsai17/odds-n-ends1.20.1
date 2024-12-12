@@ -1,0 +1,7 @@
+{
+  "parent": "oddsnends:block/template_flax_crop",
+  "textures": {
+    "crop_top": "oddsnends:block/flax_crop_top_stage_7",
+    "crop_bottom": "oddsnends:block/flax_crop_bottom_stage_7"
+  }
+}
