@@ -2,7 +2,6 @@ package net.bon.oddsnends.mixin;
 
 import net.bon.oddsnends.block.OddBlocks;
 import net.bon.oddsnends.block.custom.RageFireBlock;
-import net.bon.oddsnends.block.custom.SparkingFireBlock;
 import net.minecraft.block.AbstractFireBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.util.math.BlockPos;
@@ -25,8 +24,5 @@ public abstract class AbstractFireBlockMixin {
         if (RageFireBlock.isRageBase(world.getBlockState(pos.down()))) {
             cir.setReturnValue(OddBlocks.RAGE_FIRE.getDefaultState());
         }
-        if (SparkingFireBlock.isSparkBase(world.getBlockState(pos.down()))) {
-            cir.setReturnValue(OddBlocks.SPARKING_FIRE.getDefaultState());
-            }
-        }
     }
+}

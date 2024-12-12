@@ -6,7 +6,7 @@
       "item": "minecraft:quartz"
     },
     "w": {
-      "item": "minecraft:sand"
+      "tag": "minecraft:sand"
     }
   },
   "pattern": [

@@ -13,8 +13,10 @@ public class OddsNEndsClient implements ClientModInitializer {
     public void onInitializeClient() {
 
 
-        BlockRenderLayerMap.INSTANCE.putBlock(OddBlocks.AKANE_DOOR, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(OddBlocks.AKANE_TRAPDOOR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(OddBlocks.LINEN_CARPET, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(OddBlocks.FLAX_FLOWERS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(OddBlocks.DRIED_FLAX_FLOWERS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(OddBlocks.FLAX_CROP, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(OddBlocks.GIANT_PADMA, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(OddBlocks.ALGAE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(OddBlocks.CAVE_BRANCHES, RenderLayer.getCutout());
@@ -22,7 +24,8 @@ public class OddsNEndsClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(OddBlocks.BURIAL_SCONCE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(OddBlocks.BURIAL_SCONCE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(OddBlocks.RAGE_FIRE, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(OddBlocks.SPARKING_FIRE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(OddBlocks.POTTED_FLAX, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(OddBlocks.POTTED_DRIED_FLAX, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(OddBlocks.QUARTZ_GLASS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(OddBlocks.QUARTZ_GLASS_PANE, RenderLayer.getTranslucent());

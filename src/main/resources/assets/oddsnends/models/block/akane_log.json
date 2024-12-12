@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "oddsnends:block/akane_log_top",
-    "side": "oddsnends:block/akane_log"
-  }
-}

@@ -4,7 +4,7 @@
       "model": "oddsnends:block/manastone_slab"
     },
     "type=double": {
-      "model": "oddsnends:block/manastone_planks"
+      "model": "oddsnends:block/manastone"
     },
     "type=top": {
       "model": "oddsnends:block/manastone_slab_top"

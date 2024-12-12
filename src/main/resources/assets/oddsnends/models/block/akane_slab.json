@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "oddsnends:block/akane_planks",
-    "side": "oddsnends:block/akane_planks",
-    "top": "oddsnends:block/akane_planks"
-  }
-}

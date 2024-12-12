@@ -18,6 +18,9 @@ public class OddSounds {
     public static final BlockSoundGroup QUARTZ_SAND = new BlockSoundGroup(1f, 1f,
             OddSounds.BLOCK_QUARTZ_SAND_BREAK, OddSounds.BLOCK_QUARTZ_SAND_STEP, SoundEvents.BLOCK_SUSPICIOUS_SAND_PLACE,
             SoundEvents.BLOCK_SAND_HIT, SoundEvents.BLOCK_SAND_FALL);
+    public static final BlockSoundGroup SUSPICIOUS_QUARTZ_SAND = new BlockSoundGroup(1f, 1f,
+            SoundEvents.BLOCK_SUSPICIOUS_SAND_BREAK, OddSounds.BLOCK_QUARTZ_SAND_STEP, SoundEvents.BLOCK_SUSPICIOUS_SAND_PLACE,
+            SoundEvents.BLOCK_SAND_HIT, SoundEvents.BLOCK_SAND_FALL);
 
     public static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(OddsNEnds.MOD_ID, name);

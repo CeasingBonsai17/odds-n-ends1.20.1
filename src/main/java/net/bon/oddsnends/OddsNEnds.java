@@ -25,17 +25,5 @@ public class OddsNEnds implements ModInitializer {
 		OddParticles.registerParticles();
 		OddSounds.registerSounds();
 		OddBlockEntities.registerBlockEntities();
-
-		StrippableBlockRegistry.register(OddBlocks.AKANE_LOG, OddBlocks.STRIPPED_AKANE_LOG);
-		StrippableBlockRegistry.register(OddBlocks.AKANE_WOOD, OddBlocks.STRIPPED_AKANE_WOOD);
-
-		FlammableBlockRegistry.getDefaultInstance().add(OddBlocks.AKANE_LOG, 5, 5);
-		FlammableBlockRegistry.getDefaultInstance().add(OddBlocks.STRIPPED_AKANE_LOG, 5, 5);
-		FlammableBlockRegistry.getDefaultInstance().add(OddBlocks.AKANE_WOOD, 5, 5);
-		FlammableBlockRegistry.getDefaultInstance().add(OddBlocks.STRIPPED_AKANE_WOOD, 5, 5);
-		FlammableBlockRegistry.getDefaultInstance().add(OddBlocks.AKANE_PLANKS, 5, 20);
-		FlammableBlockRegistry.getDefaultInstance().add(OddBlocks.AKANE_LEAVES, 30, 60);
-		FlammableBlockRegistry.getDefaultInstance().add(OddBlocks.FLOWERING_AKANE_LEAVES, 30, 60);
-		FlammableBlockRegistry.getDefaultInstance().add(OddBlocks.FRUITING_AKANE_LEAVES, 30, 60);
 	}
 }

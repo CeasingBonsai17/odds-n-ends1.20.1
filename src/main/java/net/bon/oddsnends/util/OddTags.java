@@ -13,6 +13,9 @@ public class OddTags {
         public static final TagKey<Block> SPARK_FIRE_BASE_BLOCKS =
                 createTag("spark_fire_base_blocks");
 
+        public static final TagKey<Block> DUNGEON_STEEL_ORES =
+                createTag("dungeon_steel_ores");
+
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, new Identifier(OddsNEnds.MOD_ID, name));
         }
